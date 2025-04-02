@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\LagerSystem.styles.css",
+      "PackagePath": "staticwebassets\\LagerSystem.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.LagerSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.LagerSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.LagerSystem.props",
+      "PackagePath": "build\\LagerSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.LagerSystem.props",
+      "PackagePath": "buildMultiTargeting\\LagerSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.LagerSystem.props",
+      "PackagePath": "buildTransitive\\LagerSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

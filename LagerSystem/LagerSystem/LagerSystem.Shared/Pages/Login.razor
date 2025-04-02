@@ -1,0 +1,36 @@
+﻿@page "/login"
+
+@using LagerSystem.Shared.Repositories
+@using LagerSystem.Shared.Services
+@using LagerSystem.Shared.Models
+
+@inject IUserRepository UserRepository
+@inject NavigationManager Navigation
+@inject CustomAuthenticationStateProvider AuthStateProvider
+
+<EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
+    <div>
+        <label>Brugernavn</label>
+        <InputText @bind-Value="loginModel.UserName" />
+    </div>
+    <div>
+        <label>Adgangskode</label>
+        <InputText type="password" @bind-Value="password" />
+    </div>
+    <button type="submit">Login</button>
+</EditForm>
+
+@code {
+    private User loginModel = new();
+    private string password;
+
+    private async Task HandleLogin()
+    {
+        var user = await UserRepository.AuthenticateUserAsync(loginModel.UserName, password);
+        if (user != null)
+        {
+            AuthStateProvider.Login(user);
+            Navigation.NavigateTo("/");
+        }
+    }
+}
