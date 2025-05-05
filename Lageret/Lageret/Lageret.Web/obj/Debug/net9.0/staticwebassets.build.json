@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pclUGbk6f2FugqmpgSVQJ1FjfxXW6Yvf5qLB7FvYyzc=",
+  "Hash": "J9kOuXSNwRYJSDDU31UAsn7HAVmBMv46hEMwxSPHe94=",
   "Source": "Lageret.Web",
   "BasePath": "_content/Lageret.Web",
   "Mode": "Default",
@@ -29,12 +29,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\1kxucn01cm-gk6mptfnur.gz",
+      "Identity": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\1kxucn01cm-sh41f41345.gz",
       "SourceId": "Lageret.Shared",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Lageret.Shared",
-      "RelativePath": "Lageret.Shared#[.{fingerprint=gk6mptfnur}]!.bundle.scp.css.gz",
+      "RelativePath": "Lageret.Shared#[.{fingerprint=sh41f41345}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -43,11 +43,11 @@
       "RelatedAsset": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Lageret.Shared.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "p15x0pqrxs",
-      "Integrity": "MwSlhHJ7b0PfXYNjTYSqawnGpd45CB6idyBeE6vndTw=",
+      "Fingerprint": "r3nzpxv17p",
+      "Integrity": "SZMaoKHxeCeQpYb8J3X20DOcpP+vzz070PB2aOlBp8I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\1kxucn01cm-gk6mptfnur.gz"
+      "OriginalItemSpec": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\1kxucn01cm-sh41f41345.gz"
     },
     {
       "Identity": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\n5k3n8npy8-6gzpyzhau4.gz",
@@ -92,12 +92,12 @@
       "OriginalItemSpec": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\tg4zvg55ot-8inm30yfxf.gz"
     },
     {
-      "Identity": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\xdl6aias20-da95v2qkru.gz",
+      "Identity": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\xdl6aias20-qn80duv4j6.gz",
       "SourceId": "Lageret.Shared",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Lageret.Shared",
-      "RelativePath": "app#[.{fingerprint=da95v2qkru}]?.css.gz",
+      "RelativePath": "app#[.{fingerprint=qn80duv4j6}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -106,11 +106,11 @@
       "RelatedAsset": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\wwwroot\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "7xjk2sttc7",
-      "Integrity": "JRyqIbPYDuOeC5nJOM3956s9Uhd3UVgWOSEBUePgnxc=",
+      "Fingerprint": "76c263ws8k",
+      "Integrity": "H1zUp9NLe08xXjVXcN0Yl7egdPu2yOQyU7bHodLOktY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\xdl6aias20-da95v2qkru.gz"
+      "OriginalItemSpec": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\xdl6aias20-qn80duv4j6.gz"
     },
     {
       "Identity": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Lageret.Shared.bundle.scp.css",
@@ -127,8 +127,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "gk6mptfnur",
-      "Integrity": "wMeYYJo3NIlZy4KTbqIlOi1K5ILA+vIh1M7VFuFhWAc=",
+      "Fingerprint": "sh41f41345",
+      "Integrity": "AGRSInz3KD61NxeNURJ+8VFnJVwlphLRQ1Wi25qMsqk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Lageret.Shared.bundle.scp.css"
@@ -148,8 +148,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "da95v2qkru",
-      "Integrity": "u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=",
+      "Fingerprint": "qn80duv4j6",
+      "Integrity": "1oBThVJ/bXVccNtn3gFF9FdgTtx6zA5xznqQTZDxU6s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\wwwroot\\app.css"
@@ -218,12 +218,12 @@
       "OriginalItemSpec": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\compressed\\hovys04bd1-dry7xhe7z6.gz",
+      "Identity": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\compressed\\hovys04bd1-xdolbtn6jg.gz",
       "SourceId": "Lageret.Web",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Lageret.Web",
-      "RelativePath": "Lageret.Web#[.{fingerprint=dry7xhe7z6}]?.styles.css.gz",
+      "RelativePath": "Lageret.Web#[.{fingerprint=xdolbtn6jg}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -232,8 +232,8 @@
       "RelatedAsset": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Lageret.Web.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6zdejrs5nu",
-      "Integrity": "Qn0MY0SBldNKdDFF1CP7lmOELh/W+LdmVz/bE6lnVNQ=",
+      "Fingerprint": "youf9g3qpj",
+      "Integrity": "IuKgrERRwbozIAbLkhXVm3QMe7LJg3VUe/v1uFZqPqk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Lageret.Web.styles.css"
@@ -253,8 +253,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "dry7xhe7z6",
-      "Integrity": "Rw82Nj/lDPznA02Hls2AHrPRJY4LAYNz5pzdU2hMO7E=",
+      "Fingerprint": "xdolbtn6jg",
+      "Integrity": "SyIfMs2WY+6ID2VS9bzs/E+UYIn9kEvMxPwNXEHq47c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Lageret.Web.styles.css"
@@ -263,12 +263,12 @@
   "Endpoints": [
     {
       "Route": "_content/Lageret.Shared/app.css",
-      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\xdl6aias20-da95v2qkru.gz",
+      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\xdl6aias20-qn80duv4j6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000693000693"
+          "Quality": "0.000663129973"
         }
       ],
       "ResponseHeaders": [
@@ -286,15 +286,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1442"
+          "Value": "1507"
         },
         {
           "Name": "ETag",
-          "Value": "\"JRyqIbPYDuOeC5nJOM3956s9Uhd3UVgWOSEBUePgnxc=\""
+          "Value": "\"H1zUp9NLe08xXjVXcN0Yl7egdPu2yOQyU7bHodLOktY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 07:38:27 GMT"
+          "Value": "Mon, 05 May 2025 20:08:44 GMT"
         },
         {
           "Name": "Vary",
@@ -306,13 +306,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+          "Value": "W/\"1oBThVJ/bXVccNtn3gFF9FdgTtx6zA5xznqQTZDxU6s=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+          "Value": "sha256-1oBThVJ/bXVccNtn3gFF9FdgTtx6zA5xznqQTZDxU6s="
         }
       ]
     },
@@ -331,7 +331,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2591"
+          "Value": "2719"
         },
         {
           "Name": "Content-Type",
@@ -339,23 +339,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+          "Value": "\"1oBThVJ/bXVccNtn3gFF9FdgTtx6zA5xznqQTZDxU6s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 07:38:27 GMT"
+          "Value": "Mon, 05 May 2025 20:08:44 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+          "Value": "sha256-1oBThVJ/bXVccNtn3gFF9FdgTtx6zA5xznqQTZDxU6s="
         }
       ]
     },
     {
       "Route": "_content/Lageret.Shared/app.css.gz",
-      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\xdl6aias20-da95v2qkru.gz",
+      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\xdl6aias20-qn80duv4j6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -372,7 +372,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1442"
+          "Value": "1507"
         },
         {
           "Name": "Content-Type",
@@ -380,11 +380,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JRyqIbPYDuOeC5nJOM3956s9Uhd3UVgWOSEBUePgnxc=\""
+          "Value": "\"H1zUp9NLe08xXjVXcN0Yl7egdPu2yOQyU7bHodLOktY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 07:38:27 GMT"
+          "Value": "Mon, 05 May 2025 20:08:44 GMT"
         },
         {
           "Name": "Vary",
@@ -394,18 +394,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JRyqIbPYDuOeC5nJOM3956s9Uhd3UVgWOSEBUePgnxc="
+          "Value": "sha256-H1zUp9NLe08xXjVXcN0Yl7egdPu2yOQyU7bHodLOktY="
         }
       ]
     },
     {
-      "Route": "_content/Lageret.Shared/app.da95v2qkru.css",
-      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\xdl6aias20-da95v2qkru.gz",
+      "Route": "_content/Lageret.Shared/app.qn80duv4j6.css",
+      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\xdl6aias20-qn80duv4j6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000693000693"
+          "Quality": "0.000663129973"
         }
       ],
       "ResponseHeaders": [
@@ -423,15 +423,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1442"
+          "Value": "1507"
         },
         {
           "Name": "ETag",
-          "Value": "\"JRyqIbPYDuOeC5nJOM3956s9Uhd3UVgWOSEBUePgnxc=\""
+          "Value": "\"H1zUp9NLe08xXjVXcN0Yl7egdPu2yOQyU7bHodLOktY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 07:38:27 GMT"
+          "Value": "Mon, 05 May 2025 20:08:44 GMT"
         },
         {
           "Name": "Vary",
@@ -443,17 +443,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+          "Value": "W/\"1oBThVJ/bXVccNtn3gFF9FdgTtx6zA5xznqQTZDxU6s=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "da95v2qkru"
+          "Value": "qn80duv4j6"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+          "Value": "sha256-1oBThVJ/bXVccNtn3gFF9FdgTtx6zA5xznqQTZDxU6s="
         },
         {
           "Name": "label",
@@ -462,7 +462,7 @@
       ]
     },
     {
-      "Route": "_content/Lageret.Shared/app.da95v2qkru.css",
+      "Route": "_content/Lageret.Shared/app.qn80duv4j6.css",
       "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -476,7 +476,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2591"
+          "Value": "2719"
         },
         {
           "Name": "Content-Type",
@@ -484,21 +484,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+          "Value": "\"1oBThVJ/bXVccNtn3gFF9FdgTtx6zA5xznqQTZDxU6s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 07:38:27 GMT"
+          "Value": "Mon, 05 May 2025 20:08:44 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "da95v2qkru"
+          "Value": "qn80duv4j6"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+          "Value": "sha256-1oBThVJ/bXVccNtn3gFF9FdgTtx6zA5xznqQTZDxU6s="
         },
         {
           "Name": "label",
@@ -507,8 +507,8 @@
       ]
     },
     {
-      "Route": "_content/Lageret.Shared/app.da95v2qkru.css.gz",
-      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\xdl6aias20-da95v2qkru.gz",
+      "Route": "_content/Lageret.Shared/app.qn80duv4j6.css.gz",
+      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\xdl6aias20-qn80duv4j6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -525,7 +525,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1442"
+          "Value": "1507"
         },
         {
           "Name": "Content-Type",
@@ -533,11 +533,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JRyqIbPYDuOeC5nJOM3956s9Uhd3UVgWOSEBUePgnxc=\""
+          "Value": "\"H1zUp9NLe08xXjVXcN0Yl7egdPu2yOQyU7bHodLOktY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 07:38:27 GMT"
+          "Value": "Mon, 05 May 2025 20:08:44 GMT"
         },
         {
           "Name": "Vary",
@@ -547,11 +547,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "da95v2qkru"
+          "Value": "qn80duv4j6"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JRyqIbPYDuOeC5nJOM3956s9Uhd3UVgWOSEBUePgnxc="
+          "Value": "sha256-H1zUp9NLe08xXjVXcN0Yl7egdPu2yOQyU7bHodLOktY="
         },
         {
           "Name": "label",
@@ -1239,12 +1239,12 @@
     },
     {
       "Route": "_content/Lageret.Shared/Lageret.Shared.bundle.scp.css",
-      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\1kxucn01cm-gk6mptfnur.gz",
+      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\1kxucn01cm-sh41f41345.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000574382539"
+          "Quality": "0.000576368876"
         }
       ],
       "ResponseHeaders": [
@@ -1262,15 +1262,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1740"
+          "Value": "1734"
         },
         {
           "Name": "ETag",
-          "Value": "\"MwSlhHJ7b0PfXYNjTYSqawnGpd45CB6idyBeE6vndTw=\""
+          "Value": "\"SZMaoKHxeCeQpYb8J3X20DOcpP+vzz070PB2aOlBp8I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 15:28:38 GMT"
+          "Value": "Mon, 05 May 2025 20:15:36 GMT"
         },
         {
           "Name": "Vary",
@@ -1282,13 +1282,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wMeYYJo3NIlZy4KTbqIlOi1K5ILA+vIh1M7VFuFhWAc=\""
+          "Value": "W/\"AGRSInz3KD61NxeNURJ+8VFnJVwlphLRQ1Wi25qMsqk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wMeYYJo3NIlZy4KTbqIlOi1K5ILA+vIh1M7VFuFhWAc="
+          "Value": "sha256-AGRSInz3KD61NxeNURJ+8VFnJVwlphLRQ1Wi25qMsqk="
         }
       ]
     },
@@ -1307,7 +1307,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5918"
+          "Value": "5913"
         },
         {
           "Name": "Content-Type",
@@ -1315,23 +1315,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wMeYYJo3NIlZy4KTbqIlOi1K5ILA+vIh1M7VFuFhWAc=\""
+          "Value": "\"AGRSInz3KD61NxeNURJ+8VFnJVwlphLRQ1Wi25qMsqk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 15:28:38 GMT"
+          "Value": "Mon, 05 May 2025 20:15:36 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wMeYYJo3NIlZy4KTbqIlOi1K5ILA+vIh1M7VFuFhWAc="
+          "Value": "sha256-AGRSInz3KD61NxeNURJ+8VFnJVwlphLRQ1Wi25qMsqk="
         }
       ]
     },
     {
       "Route": "_content/Lageret.Shared/Lageret.Shared.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\1kxucn01cm-gk6mptfnur.gz",
+      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\1kxucn01cm-sh41f41345.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1348,7 +1348,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1740"
+          "Value": "1734"
         },
         {
           "Name": "Content-Type",
@@ -1356,11 +1356,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MwSlhHJ7b0PfXYNjTYSqawnGpd45CB6idyBeE6vndTw=\""
+          "Value": "\"SZMaoKHxeCeQpYb8J3X20DOcpP+vzz070PB2aOlBp8I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 15:28:38 GMT"
+          "Value": "Mon, 05 May 2025 20:15:36 GMT"
         },
         {
           "Name": "Vary",
@@ -1370,18 +1370,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MwSlhHJ7b0PfXYNjTYSqawnGpd45CB6idyBeE6vndTw="
+          "Value": "sha256-SZMaoKHxeCeQpYb8J3X20DOcpP+vzz070PB2aOlBp8I="
         }
       ]
     },
     {
-      "Route": "_content/Lageret.Shared/Lageret.Shared.gk6mptfnur.bundle.scp.css",
-      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\1kxucn01cm-gk6mptfnur.gz",
+      "Route": "_content/Lageret.Shared/Lageret.Shared.sh41f41345.bundle.scp.css",
+      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\1kxucn01cm-sh41f41345.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000574382539"
+          "Quality": "0.000576368876"
         }
       ],
       "ResponseHeaders": [
@@ -1399,15 +1399,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1740"
+          "Value": "1734"
         },
         {
           "Name": "ETag",
-          "Value": "\"MwSlhHJ7b0PfXYNjTYSqawnGpd45CB6idyBeE6vndTw=\""
+          "Value": "\"SZMaoKHxeCeQpYb8J3X20DOcpP+vzz070PB2aOlBp8I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 15:28:38 GMT"
+          "Value": "Mon, 05 May 2025 20:15:36 GMT"
         },
         {
           "Name": "Vary",
@@ -1419,17 +1419,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wMeYYJo3NIlZy4KTbqIlOi1K5ILA+vIh1M7VFuFhWAc=\""
+          "Value": "W/\"AGRSInz3KD61NxeNURJ+8VFnJVwlphLRQ1Wi25qMsqk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gk6mptfnur"
+          "Value": "sh41f41345"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wMeYYJo3NIlZy4KTbqIlOi1K5ILA+vIh1M7VFuFhWAc="
+          "Value": "sha256-AGRSInz3KD61NxeNURJ+8VFnJVwlphLRQ1Wi25qMsqk="
         },
         {
           "Name": "label",
@@ -1438,7 +1438,7 @@
       ]
     },
     {
-      "Route": "_content/Lageret.Shared/Lageret.Shared.gk6mptfnur.bundle.scp.css",
+      "Route": "_content/Lageret.Shared/Lageret.Shared.sh41f41345.bundle.scp.css",
       "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Lageret.Shared.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1452,7 +1452,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5918"
+          "Value": "5913"
         },
         {
           "Name": "Content-Type",
@@ -1460,21 +1460,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wMeYYJo3NIlZy4KTbqIlOi1K5ILA+vIh1M7VFuFhWAc=\""
+          "Value": "\"AGRSInz3KD61NxeNURJ+8VFnJVwlphLRQ1Wi25qMsqk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 15:28:38 GMT"
+          "Value": "Mon, 05 May 2025 20:15:36 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gk6mptfnur"
+          "Value": "sh41f41345"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wMeYYJo3NIlZy4KTbqIlOi1K5ILA+vIh1M7VFuFhWAc="
+          "Value": "sha256-AGRSInz3KD61NxeNURJ+8VFnJVwlphLRQ1Wi25qMsqk="
         },
         {
           "Name": "label",
@@ -1483,8 +1483,8 @@
       ]
     },
     {
-      "Route": "_content/Lageret.Shared/Lageret.Shared.gk6mptfnur.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\1kxucn01cm-gk6mptfnur.gz",
+      "Route": "_content/Lageret.Shared/Lageret.Shared.sh41f41345.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\obj\\Debug\\net9.0\\compressed\\1kxucn01cm-sh41f41345.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1501,7 +1501,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1740"
+          "Value": "1734"
         },
         {
           "Name": "Content-Type",
@@ -1509,11 +1509,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MwSlhHJ7b0PfXYNjTYSqawnGpd45CB6idyBeE6vndTw=\""
+          "Value": "\"SZMaoKHxeCeQpYb8J3X20DOcpP+vzz070PB2aOlBp8I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 15:28:38 GMT"
+          "Value": "Mon, 05 May 2025 20:15:36 GMT"
         },
         {
           "Name": "Vary",
@@ -1523,11 +1523,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gk6mptfnur"
+          "Value": "sh41f41345"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MwSlhHJ7b0PfXYNjTYSqawnGpd45CB6idyBeE6vndTw="
+          "Value": "sha256-SZMaoKHxeCeQpYb8J3X20DOcpP+vzz070PB2aOlBp8I="
         },
         {
           "Name": "label",
@@ -1536,8 +1536,8 @@
       ]
     },
     {
-      "Route": "Lageret.Web.dry7xhe7z6.styles.css",
-      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\compressed\\hovys04bd1-dry7xhe7z6.gz",
+      "Route": "Lageret.Web.styles.css",
+      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\compressed\\hovys04bd1-xdolbtn6jg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1556,11 +1556,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Qn0MY0SBldNKdDFF1CP7lmOELh/W+LdmVz/bE6lnVNQ=\""
+          "Value": "\"IuKgrERRwbozIAbLkhXVm3QMe7LJg3VUe/v1uFZqPqk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 15:31:22 GMT"
+          "Value": "Mon, 05 May 2025 20:15:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SyIfMs2WY+6ID2VS9bzs/E+UYIn9kEvMxPwNXEHq47c=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Lageret.Shared/Lageret.Shared.sh41f41345.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SyIfMs2WY+6ID2VS9bzs/E+UYIn9kEvMxPwNXEHq47c="
+        }
+      ]
+    },
+    {
+      "Route": "Lageret.Web.styles.css",
+      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Lageret.Web.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SyIfMs2WY+6ID2VS9bzs/E+UYIn9kEvMxPwNXEHq47c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 20:15:36 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Lageret.Shared/Lageret.Shared.sh41f41345.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SyIfMs2WY+6ID2VS9bzs/E+UYIn9kEvMxPwNXEHq47c="
+        }
+      ]
+    },
+    {
+      "Route": "Lageret.Web.styles.css.gz",
+      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\compressed\\hovys04bd1-xdolbtn6jg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IuKgrERRwbozIAbLkhXVm3QMe7LJg3VUe/v1uFZqPqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 20:15:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IuKgrERRwbozIAbLkhXVm3QMe7LJg3VUe/v1uFZqPqk="
+        }
+      ]
+    },
+    {
+      "Route": "Lageret.Web.xdolbtn6jg.styles.css",
+      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\compressed\\hovys04bd1-xdolbtn6jg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.011494252874"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IuKgrERRwbozIAbLkhXVm3QMe7LJg3VUe/v1uFZqPqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 20:15:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1580,21 +1725,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Rw82Nj/lDPznA02Hls2AHrPRJY4LAYNz5pzdU2hMO7E=\""
+          "Value": "W/\"SyIfMs2WY+6ID2VS9bzs/E+UYIn9kEvMxPwNXEHq47c=\""
         },
         {
           "Name": "Link",
-          "Value": "<_content/Lageret.Shared/Lageret.Shared.gk6mptfnur.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+          "Value": "<_content/Lageret.Shared/Lageret.Shared.sh41f41345.bundle.scp.css>; rel=\"preload\"; as=\"style\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dry7xhe7z6"
+          "Value": "xdolbtn6jg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Rw82Nj/lDPznA02Hls2AHrPRJY4LAYNz5pzdU2hMO7E="
+          "Value": "sha256-SyIfMs2WY+6ID2VS9bzs/E+UYIn9kEvMxPwNXEHq47c="
         },
         {
           "Name": "label",
@@ -1603,7 +1748,7 @@
       ]
     },
     {
-      "Route": "Lageret.Web.dry7xhe7z6.styles.css",
+      "Route": "Lageret.Web.xdolbtn6jg.styles.css",
       "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Lageret.Web.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1625,25 +1770,25 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Rw82Nj/lDPznA02Hls2AHrPRJY4LAYNz5pzdU2hMO7E=\""
+          "Value": "\"SyIfMs2WY+6ID2VS9bzs/E+UYIn9kEvMxPwNXEHq47c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 15:31:22 GMT"
+          "Value": "Mon, 05 May 2025 20:15:36 GMT"
         },
         {
           "Name": "Link",
-          "Value": "<_content/Lageret.Shared/Lageret.Shared.gk6mptfnur.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+          "Value": "<_content/Lageret.Shared/Lageret.Shared.sh41f41345.bundle.scp.css>; rel=\"preload\"; as=\"style\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dry7xhe7z6"
+          "Value": "xdolbtn6jg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Rw82Nj/lDPznA02Hls2AHrPRJY4LAYNz5pzdU2hMO7E="
+          "Value": "sha256-SyIfMs2WY+6ID2VS9bzs/E+UYIn9kEvMxPwNXEHq47c="
         },
         {
           "Name": "label",
@@ -1652,8 +1797,8 @@
       ]
     },
     {
-      "Route": "Lageret.Web.dry7xhe7z6.styles.css.gz",
-      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\compressed\\hovys04bd1-dry7xhe7z6.gz",
+      "Route": "Lageret.Web.xdolbtn6jg.styles.css.gz",
+      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\compressed\\hovys04bd1-xdolbtn6jg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1670,11 +1815,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Qn0MY0SBldNKdDFF1CP7lmOELh/W+LdmVz/bE6lnVNQ=\""
+          "Value": "\"IuKgrERRwbozIAbLkhXVm3QMe7LJg3VUe/v1uFZqPqk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 15:31:22 GMT"
+          "Value": "Mon, 05 May 2025 20:15:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1692,7 +1837,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dry7xhe7z6"
+          "Value": "xdolbtn6jg"
         },
         {
           "Name": "label",
@@ -1700,152 +1845,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Qn0MY0SBldNKdDFF1CP7lmOELh/W+LdmVz/bE6lnVNQ="
-        }
-      ]
-    },
-    {
-      "Route": "Lageret.Web.styles.css",
-      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\compressed\\hovys04bd1-dry7xhe7z6.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.011494252874"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "86"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Qn0MY0SBldNKdDFF1CP7lmOELh/W+LdmVz/bE6lnVNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 15:31:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Rw82Nj/lDPznA02Hls2AHrPRJY4LAYNz5pzdU2hMO7E=\""
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Lageret.Shared/Lageret.Shared.gk6mptfnur.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Rw82Nj/lDPznA02Hls2AHrPRJY4LAYNz5pzdU2hMO7E="
-        }
-      ]
-    },
-    {
-      "Route": "Lageret.Web.styles.css",
-      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Lageret.Web.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "79"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Rw82Nj/lDPznA02Hls2AHrPRJY4LAYNz5pzdU2hMO7E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 15:31:22 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Lageret.Shared/Lageret.Shared.gk6mptfnur.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Rw82Nj/lDPznA02Hls2AHrPRJY4LAYNz5pzdU2hMO7E="
-        }
-      ]
-    },
-    {
-      "Route": "Lageret.Web.styles.css.gz",
-      "AssetFile": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\obj\\Debug\\net9.0\\compressed\\hovys04bd1-dry7xhe7z6.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "86"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Qn0MY0SBldNKdDFF1CP7lmOELh/W+LdmVz/bE6lnVNQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 15:31:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Qn0MY0SBldNKdDFF1CP7lmOELh/W+LdmVz/bE6lnVNQ="
+          "Value": "sha256-IuKgrERRwbozIAbLkhXVm3QMe7LJg3VUe/v1uFZqPqk="
         }
       ]
     }

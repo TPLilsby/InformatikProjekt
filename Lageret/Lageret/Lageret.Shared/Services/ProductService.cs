@@ -57,25 +57,27 @@ namespace Lageret.Shared.Services
                 await _context.SaveChangesAsync();
             }
         }
-        
-        public async Task ReorderAsync(int productId, int userId)
+
+        public async Task ReorderAsync(int productId, int userId, int quantity)
         {
             var product = await _context.Products.FindAsync(productId);
             if (product != null && product.Quantity < product.StockLimit)
             {
-                product.Quantity += 10; // fast genbestilling, fx +10 stk
+                product.Quantity += quantity; // Tilføj det ønskede antal til produktet
 
                 _context.OrderEntries.Add(new OrderEntry
                 {
                     ProductId = productId,
                     UserId = userId,
-                    Quantity = 10,
+                    Quantity = quantity, // Genbestilt antal
                     OrderDate = DateTime.Now
                 });
 
                 await _context.SaveChangesAsync();
             }
         }
+
+
     }
 
 }

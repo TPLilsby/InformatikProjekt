@@ -4,27 +4,53 @@
 @inject SessionService SessionService
 @inject DatabaseUserService UserService
 
-<h3>Opret Bruger</h3>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h3 class="text-center mb-4">Opret Bruger</h3>
 
-<EditForm Model="@registerModel" OnValidSubmit="HandleRegister">
-    <InputText @bind-Value="registerModel.Username" placeholder="Brugernavn" />
-    <InputText @bind-Value="registerModel.Password" type="password" placeholder="Adgangskode" />
+                    <EditForm Model="@registerModel" OnValidSubmit="HandleRegister">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Brugernavn</label>
+                            <InputText id="username" class="form-control" @bind-Value="registerModel.Username" />
+                        </div>
 
-    <select @bind="registerModel.RoleName">
-        <option disabled selected value="">Vælg rolle</option>
-        @foreach (var role in roles)
-        {
-            <option value="@role">@role</option>
-        }
-    </select>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Adgangskode</label>
+                            <InputText id="password" type="password" class="form-control" @bind-Value="registerModel.Password" />
+                        </div>
 
-    <button type="submit">Registrer</button>
-</EditForm>
+                        <div class="mb-3">
+                            <label for="role" class="form-label">Vælg rolle</label>
+                            <select id="role" class="form-select" @bind="registerModel.RoleName">
+                                <option disabled selected value="">-- Vælg rolle --</option>
+                                @foreach (var role in roles)
+                                {
+                                    <option value="@role">@role</option>
+                                }
+                            </select>
+                        </div>
 
-@if (errorMessage != null)
-{
-    <p style="color:red;">@errorMessage</p>
-}
+                        <button type="submit" class="btn btn-success w-100">Registrer</button>
+                    </EditForm>
+
+                    <p class="mt-3 text-center">
+                        Allerede bruger? <a href="/login">Log ind her</a>
+                    </p>
+
+                    @if (!string.IsNullOrEmpty(errorMessage))
+                    {
+                        <div class="alert alert-danger text-center mt-3" role="alert">
+                            @errorMessage
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 @code {
     private RegisterModel registerModel = new();

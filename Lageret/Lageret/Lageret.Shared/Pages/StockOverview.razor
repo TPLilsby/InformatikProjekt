@@ -21,6 +21,7 @@ else
                 <th>Min. Lager</th>
                 <th>Kategori</th>
                 <th>Genbestil</th>
+                <th>Antal til Genbestilling</th>
             </tr>
         </thead>
         <tbody>
@@ -34,22 +35,43 @@ else
                     <td>
                         @if (p.Quantity < p.StockLimit)
                         {
-                            <button class="btn btn-warning btn-sm" @onclick="() => Reorder(p.ProductId)">Genbestil</button>
+                            <button class="btn btn-warning btn-sm" @onclick="() => ToggleReorder(p.ProductId)">Genbestil</button>
                         }
                         else
                         {
                             <span class="text-success">OK</span>
                         }
                     </td>
+                    <td>
+                        @if (p.Quantity < p.StockLimit)
+                        {
+                            <input type="number" @bind="reorderQuantity" min="1" class="form-control" placeholder="Antal">
+                        }
+                    </td>
                 </tr>
             }
         </tbody>
     </table>
+
+    <!-- Toast besked -->
+    @if (showToast)
+    {
+        <div class="toast align-items-center text-white bg-success border-0 position-fixed bottom-0 end-0 m-3" role="alert" aria-live="assertive" aria-atomic="true" style="z-index: 1050;">
+            <div class="d-flex">
+                <div class="toast-body">
+                    Varen er genbestilt succesfuldt!
+                </div>
+                <button type="button" class="btn-close btn-close-white" aria-label="Close" @onclick="HideToast"></button>
+            </div>
+        </div>
+    }
 }
 
 @code {
     private List<Product> products = new();
     private List<Category> categories = new();
+    private int reorderQuantity = 0; // Lokal variabel til det ønskede genbestillingsantal
+    private bool showToast = false; // Variabel til at kontrollere visning af toast
 
     protected override async Task OnInitializedAsync()
     {
@@ -57,14 +79,31 @@ else
         categories = await ProductService.GetCategoriesAsync();
     }
 
-    private async Task Reorder(int productId)
+    private async Task ToggleReorder(int productId)
     {
-        var user = await UserService.GetUserByNameAsync(SessionService.Username);
-        if (user != null)
+        if (reorderQuantity > 0) // Tjek om der er angivet et antal
         {
-            await ProductService.ReorderAsync(productId, user.UserId);
-            products = await ProductService.GetAllAsync(); // Opdater visning
+            var user = await UserService.GetUserByNameAsync(SessionService.Username);
+            if (user != null)
+            {
+                await ProductService.ReorderAsync(productId, user.UserId, reorderQuantity);
+                products = await ProductService.GetAllAsync(); // Opdater visning
+
+                // Vis toast og nulstil genbestillingsfelt
+                showToast = true;
+                reorderQuantity = 0;
+
+                // Skjul toast efter 3 sekunder
+                StateHasChanged();
+                await Task.Delay(3000); // Vent 3 sekunder
+                showToast = false;
+                StateHasChanged();
+            }
         }
     }
 
+    private void HideToast()
+    {
+        showToast = false;
+    }
 }

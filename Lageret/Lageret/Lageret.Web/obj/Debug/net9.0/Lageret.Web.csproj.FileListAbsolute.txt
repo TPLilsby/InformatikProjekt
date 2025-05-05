@@ -155,7 +155,6 @@ C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Web\
 C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Web\bin\Debug\net9.0\Lageret.Shared.dll
 C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Web\bin\Debug\net9.0\Lageret.Shared.pdb
 C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Web\obj\Debug\net9.0\scopedcss\bundle\Lageret.Web.styles.css
-C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Web\obj\Debug\net9.0\compressed\hovys04bd1-dry7xhe7z6.gz
 C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Web\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Web\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Web\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -172,3 +171,4 @@ C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Web\
 C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Web\obj\Debug\net9.0\Lageret.Web.pdb
 C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Web\obj\Debug\net9.0\Lageret.Web.genruntimeconfig.cache
 C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Web\obj\Debug\net9.0\ref\Lageret.Web.dll
+C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Web\obj\Debug\net9.0\compressed\hovys04bd1-xdolbtn6jg.gz

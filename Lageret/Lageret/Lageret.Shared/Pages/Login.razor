@@ -3,24 +3,42 @@
 @inject SessionService SessionService
 @inject NavigationManager Navigation
 
-<h3>Login</h3>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h3 class="text-center mb-4">Login</h3>
 
-<EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
-    <InputText @bind-Value="loginModel.Username" placeholder="Username" />
-    <InputText @bind-Value="loginModel.Password" type="password" placeholder="Password" />
-    <button type="submit">Login</button>
-</EditForm>
+                    <EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Brugernavn</label>
+                            <InputText id="username" class="form-control" @bind-Value="loginModel.Username" />
+                        </div>
 
-<p>
-   Ingen bruger? <a href="/register">Opret bruger her</a>
-</p>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Adgangskode</label>
+                            <InputText id="password" type="password" class="form-control" @bind-Value="loginModel.Password" />
+                        </div>
 
+                        <button type="submit" class="btn btn-primary w-100">Log ind</button>
+                    </EditForm>
 
-@if (loginFailed)
-{
-    <p style="color:red;">Forkert brugernavn eller kodeord.</p>
-}
+                    <p class="mt-3 text-center">
+                        Ingen bruger? <a href="/register">Opret bruger her</a>
+                    </p>
 
+                    @if (loginFailed)
+                    {
+                        <div class="alert alert-danger text-center mt-3" role="alert">
+                            Forkert brugernavn eller adgangskode.
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @code {
     private LoginModel loginModel = new();
     private bool loginFailed = false;
@@ -33,17 +51,7 @@
         {
             loginFailed = false;
 
-            var role = SessionService.Role;
-
-            // Redirect baseret på rolle
-            if (role == "Admin" || role == "Lagerchef")
-            {
-                Navigation.NavigateTo("/counter");
-            }
-            else
-            {
-                Navigation.NavigateTo("/");
-            }
+            Navigation.NavigateTo("/");
         }
         else
         {

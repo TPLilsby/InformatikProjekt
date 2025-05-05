@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lageret.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e4c0093df93dd37df82c86202016a3b8d1c1c1f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88edefc373ceb911f01d6094040a572738fccb35")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lageret.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lageret.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
