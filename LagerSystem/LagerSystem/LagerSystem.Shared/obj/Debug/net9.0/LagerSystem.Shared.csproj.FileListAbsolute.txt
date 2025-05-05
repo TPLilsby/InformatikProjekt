@@ -33,3 +33,4 @@ C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\Lage
 C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\LagerSystem.Shared\bin\Debug\net9.0\LagerSystem.Shared.runtimeconfig.json
 C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\LagerSystem.Shared\obj\Debug\net9.0\LagerSystem.Shared.genruntimeconfig.cache
 C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\LagerSystem.Shared\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\LagerSystem.Shared\obj\Debug\net9.0\LagerSystem.Shared.sourcelink.json

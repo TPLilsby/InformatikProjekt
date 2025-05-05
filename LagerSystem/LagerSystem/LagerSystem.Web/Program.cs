@@ -1,13 +1,8 @@
-using LagerSystem.Repositories;
 using LagerSystem.Shared.Data;
-using LagerSystem.Shared.Models;
-using LagerSystem.Shared.Repositories;
 using LagerSystem.Shared.Services;
 using LagerSystem.Web.Components;
-using LagerSystem.Web.Services;
-using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,19 +10,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-// Add device-specific services used by the LagerSystem.Shared project
-builder.Services.AddSingleton<IFormFactor, FormFactor>();
+// Add device-specific services used by the LoginTest.Shared project
 
-builder.Services.AddDbContextFactory<ApplicationDbContext>(options =>
-                options.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=LagerSystemDB;Trusted_Connection=True;TrustServerCertificate=True;"));
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=LagerSystemDB;Trusted_Connection=True;TrustServerCertificate=True;"));
 
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
-
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-
-builder.Services.AddScoped<CustomAuthenticationStateProvider>();
-builder.Services.AddScoped<AuthenticationStateProvider>(sp => sp.GetRequiredService<CustomAuthenticationStateProvider>());
-builder.Services.AddAuthorizationCore();
+builder.Services.AddScoped<DatabaseUserService>();
+builder.Services.AddScoped<SessionService>();
 
 
 var app = builder.Build();

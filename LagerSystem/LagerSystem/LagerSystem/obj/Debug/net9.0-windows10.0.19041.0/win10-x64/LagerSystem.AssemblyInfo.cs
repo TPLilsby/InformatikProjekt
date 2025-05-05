@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LagerSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7e4c0093df93dd37df82c86202016a3b8d1c1c1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("LagerSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LagerSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

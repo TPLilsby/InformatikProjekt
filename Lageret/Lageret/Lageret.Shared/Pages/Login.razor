@@ -1,0 +1,59 @@
+﻿@page "/login"
+@using Lageret.Shared.Services
+@inject SessionService SessionService
+@inject NavigationManager Navigation
+
+<h3>Login</h3>
+
+<EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
+    <InputText @bind-Value="loginModel.Username" placeholder="Username" />
+    <InputText @bind-Value="loginModel.Password" type="password" placeholder="Password" />
+    <button type="submit">Login</button>
+</EditForm>
+
+<p>
+   Ingen bruger? <a href="/register">Opret bruger her</a>
+</p>
+
+
+@if (loginFailed)
+{
+    <p style="color:red;">Forkert brugernavn eller kodeord.</p>
+}
+
+@code {
+    private LoginModel loginModel = new();
+    private bool loginFailed = false;
+
+    private async Task HandleLogin()
+    {
+        var success = await SessionService.LoginAsync(loginModel.Username, loginModel.Password);
+
+        if (success)
+        {
+            loginFailed = false;
+
+            var role = SessionService.Role;
+
+            // Redirect baseret på rolle
+            if (role == "Admin" || role == "Lagerchef")
+            {
+                Navigation.NavigateTo("/counter");
+            }
+            else
+            {
+                Navigation.NavigateTo("/");
+            }
+        }
+        else
+        {
+            loginFailed = true;
+        }
+    }
+
+    private class LoginModel
+    {
+        public string Username { get; set; }
+        public string Password { get; set; } // Ikke i brug endnu, men behold for fremtidig udvidelse
+    }
+} 

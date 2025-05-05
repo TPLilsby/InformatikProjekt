@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LagerSystemet.Web.props" />
+</Project>

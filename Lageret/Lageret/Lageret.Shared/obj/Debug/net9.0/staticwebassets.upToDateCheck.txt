@@ -1,0 +1,7 @@
+C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Shared\wwwroot\bootstrap\bootstrap.min.css
+C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Shared\wwwroot\bootstrap\bootstrap.min.css.map
+C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret.Shared\wwwroot\app.css
+wwwroot\app.css
+wwwroot\bootstrap\bootstrap.min.css
+wwwroot\bootstrap\bootstrap.min.css.map
+wwwroot\favicon.png

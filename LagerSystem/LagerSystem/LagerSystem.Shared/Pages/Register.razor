@@ -1,39 +1,8 @@
 ﻿@page "/register"
 
 @using LagerSystem.Shared.Models
-@using LagerSystem.Shared.Repositories
 
-@inject IUserRepository UserRepository
-@inject NavigationManager Navigation
-
-<EditForm Model="@registerModel" OnValidSubmit="HandleRegister">
-    <div>
-        <label>Brugernavn</label>
-        <InputText @bind-Value="registerModel.UserName" />
-    </div>
-    <div>
-        <label>Adgangskode</label>
-        <InputText type="password" @bind-Value="registerModel.Password" />
-    </div>
-    <div>
-        <label>Rolle</label>
-        <InputSelect @bind-Value="registerModel.Role">
-            <option value="Lagerchef">Lagerchef</option>
-            <option value="Medarbejder">Medarbejder</option>
-        </InputSelect>
-    </div>
-    <button type="submit">Registrer</button>
-</EditForm>
-
+<h3>Register</h3>
 @code {
-    private User registerModel = new();
 
-    private async Task HandleRegister()
-    {
-        bool success = await UserRepository.RegisterUserAsync(registerModel);
-        if (success)
-        {
-            Navigation.NavigateTo("/login");
-        }
-    }
 }

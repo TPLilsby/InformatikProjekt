@@ -1,0 +1,59 @@
+﻿@page "/register"
+@using Lageret.Shared.Services
+@inject NavigationManager Navigation
+@inject SessionService SessionService
+@inject DatabaseUserService UserService
+
+<h3>Opret Bruger</h3>
+
+<EditForm Model="@registerModel" OnValidSubmit="HandleRegister">
+    <InputText @bind-Value="registerModel.Username" placeholder="Brugernavn" />
+    <InputText @bind-Value="registerModel.Password" type="password" placeholder="Adgangskode" />
+
+    <select @bind="registerModel.RoleName">
+        <option disabled selected value="">Vælg rolle</option>
+        @foreach (var role in roles)
+        {
+            <option value="@role">@role</option>
+        }
+    </select>
+
+    <button type="submit">Registrer</button>
+</EditForm>
+
+@if (errorMessage != null)
+{
+    <p style="color:red;">@errorMessage</p>
+}
+
+@code {
+    private RegisterModel registerModel = new();
+    private string errorMessage;
+    private List<string> roles = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        roles = await UserService.GetRoleNamesAsync();
+    }
+
+    private async Task HandleRegister()
+    {
+        var success = await UserService.RegisterAsync(registerModel.Username, registerModel.Password, registerModel.RoleName);
+
+        if (success)
+        {
+            Navigation.NavigateTo("/login");
+        }
+        else
+        {
+            errorMessage = "Fejl under registrering. Brugernavn eksisterer måske allerede.";
+        }
+    }
+
+    private class RegisterModel
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public string RoleName { get; set; }
+    }
+}

@@ -3,76 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F8775EE-F83C-4972-923A-7BDFBE02AB4C}|LagerSystem\\LagerSystem.Web\\LagerSystem.Web.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F8775EE-F83C-4972-923A-7BDFBE02AB4C}|LagerSystem\\LagerSystem.Web\\LagerSystem.Web.csproj|solutionrelative:lagersystem\\lagersystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\pages\\receivestock.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\pages\\receivestock.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\pages\\createproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\pages\\createproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\services\\databaseuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\services\\databaseuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\migrations\\20250314101102_addusers.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\migrations\\20250314101102_addusers.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\pages\\createproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\pages\\createproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\services\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\services\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD7C302B-C47F-4D8D-81BD-D147DF9E035C}|LagerSystem\\LagerSystem\\LagerSystem.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7C302B-C47F-4D8D-81BD-D147DF9E035C}|LagerSystem\\LagerSystem\\LagerSystem.csproj|solutionrelative:lagersystem\\lagersystem\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\pages\\receivestock.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\pages\\receivestock.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\lagersystem.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\lagersystem.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1F8775EE-F83C-4972-923A-7BDFBE02AB4C}|LagerSystem\\LagerSystem.Web\\LagerSystem.Web.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8775EE-F83C-4972-923A-7BDFBE02AB4C}|LagerSystem\\LagerSystem.Web\\LagerSystem.Web.csproj|solutionrelative:lagersystem\\lagersystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7C302B-C47F-4D8D-81BD-D147DF9E035C}|LagerSystem\\LagerSystem\\LagerSystem.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7C302B-C47F-4D8D-81BD-D147DF9E035C}|LagerSystem\\LagerSystem\\LagerSystem.csproj|solutionrelative:lagersystem\\lagersystem\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F8775EE-F83C-4972-923A-7BDFBE02AB4C}|LagerSystem\\LagerSystem.Web\\LagerSystem.Web.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F8775EE-F83C-4972-923A-7BDFBE02AB4C}|LagerSystem\\LagerSystem.Web\\LagerSystem.Web.csproj|solutionrelative:lagersystem\\lagersystem.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\lagersystem.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\lagersystem.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -85,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AD7C302B-C47F-4D8D-81BD-D147DF9E035C}|LagerSystem\\LagerSystem\\LagerSystem.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem\\lagersystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AD7C302B-C47F-4D8D-81BD-D147DF9E035C}|LagerSystem\\LagerSystem\\LagerSystem.csproj|solutionrelative:lagersystem\\lagersystem\\lagersystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.shared\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A48868C8-6896-4E37-B492-069FA9A70045}|LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj|solutionrelative:lagersystem\\lagersystem.shared\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F8775EE-F83C-4972-923A-7BDFBE02AB4C}|LagerSystem\\LagerSystem.Web\\LagerSystem.Web.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lagersystem\\lagersystem\\lagersystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -106,8 +114,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 12,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1894142962:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
@@ -117,40 +145,57 @@
               "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Pages\\Login.razor",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\Login.razor",
-              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Pages\\Login.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T09:19:08.044Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBoAAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "DatabaseUserService.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Services\\DatabaseUserService.cs",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Services\\DatabaseUserService.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Services\\DatabaseUserService.cs",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Services\\DatabaseUserService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T11:33:00.786Z",
+              "WhenOpened": "2025-05-03T16:26:46.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "SessionService.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Services\\SessionService.cs",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Services\\SessionService.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Services\\SessionService.cs",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Services\\SessionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T16:28:51.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateProduct.razor",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\CreateProduct.razor",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Pages\\CreateProduct.razor",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\CreateProduct.razor",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Pages\\CreateProduct.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T07:41:17.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Register.razor",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\Register.razor",
               "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Pages\\Register.razor",
               "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\Register.razor",
               "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Pages\\Register.razor",
-              "ViewState": "AgIAABYAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-12T12:14:53.078Z",
               "EditorCaption": ""
@@ -158,115 +203,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAQwD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T09:12:48.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Repositories\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Repositories\\IUserRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T09:11:54.015Z",
+              "Title": "ReceiveStock.razor",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\ReceiveStock.razor",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Pages\\ReceiveStock.razor",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\ReceiveStock.razor",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Pages\\ReceiveStock.razor",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T09:15:13.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Models\\User.cs",
-              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Models\\User.cs",
-              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Models\\User.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Title": "20250314101102_Addusers.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Migrations\\20250314101102_Addusers.Designer.cs",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Migrations\\20250314101102_Addusers.Designer.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Migrations\\20250314101102_Addusers.Designer.cs",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Migrations\\20250314101102_Addusers.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T10:27:34.667Z",
+              "WhenOpened": "2025-05-04T07:26:24.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T16:34:15.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Layout\\NavMenu.razor",
               "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-11T09:17:04.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Web\\Program.cs",
-              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Web\\Program.cs",
-              "RelativeToolTip": "LagerSystem\\LagerSystem.Web\\Program.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAowDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T09:59:00.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "CreateProduct.razor",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\CreateProduct.razor",
-              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Pages\\CreateProduct.razor",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\CreateProduct.razor",
-              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Pages\\CreateProduct.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T07:41:17.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T09:16:53.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Routes.razor",
               "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Routes.razor",
               "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Routes.razor",
               "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Routes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T09:15:29.753Z"
+              "WhenOpened": "2025-03-11T09:15:29.753Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CustomAuthenticationStateProvider.cs",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Services\\CustomAuthenticationStateProvider.cs",
-              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Services\\CustomAuthenticationStateProvider.cs",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Services\\CustomAuthenticationStateProvider.cs",
-              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Services\\CustomAuthenticationStateProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\Login.razor",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T09:19:08.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\Home.razor",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T11:39:44.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Models\\UserRole.cs",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Models\\UserRole.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T07:57:34.255Z"
+              "WhenOpened": "2025-05-03T16:32:30.35Z"
             },
             {
               "$type": "Document",
@@ -276,49 +311,61 @@
               "RelativeDocumentMoniker": "LagerSystem\\LagerSystem\\MauiProgram.cs",
               "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem\\MauiProgram.cs",
               "RelativeToolTip": "LagerSystem\\LagerSystem\\MauiProgram.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACMAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T11:40:29.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ReceiveStock.razor",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\ReceiveStock.razor",
-              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Pages\\ReceiveStock.razor",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\ReceiveStock.razor",
-              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Pages\\ReceiveStock.razor",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T09:15:13.593Z"
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Web\\Program.cs",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Web\\Program.cs",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T09:59:00.863Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Pages\\Home.razor",
-              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-10T11:39:44.582Z"
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Models\\Role.cs",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T16:31:42.415Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "LagerSystem.Shared.csproj",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj",
-              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj",
-              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-10T11:21:55.493Z"
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Models\\User.cs",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Models\\User.cs",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Models\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T10:27:34.667Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Models\\UserSession.cs",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Models\\UserSession.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Models\\UserSession.cs",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Models\\UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T16:30:07.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Models\\Product.cs",
               "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Models\\Product.cs",
@@ -330,19 +377,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAwCUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T07:23:38.296Z"
+              "DocumentIndex": 18,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Web\\Components\\App.razor",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Web\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Web\\Components\\App.razor",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Web\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T08:30:23.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
+              "Title": "LagerSystem.Shared.csproj",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\LagerSystem.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-10T11:21:55.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T09:16:53.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\_Imports.razor",
               "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\_Imports.razor",
@@ -354,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem\\App.xaml",
               "RelativeDocumentMoniker": "LagerSystem\\LagerSystem\\App.xaml",
@@ -366,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "LagerSystem.csproj",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem\\LagerSystem.csproj",
               "RelativeDocumentMoniker": "LagerSystem\\LagerSystem\\LagerSystem.csproj",
@@ -378,19 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Repositories\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Shared\\Repositories\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Shared\\Repositories\\IProductRepository.cs",
-              "RelativeToolTip": "LagerSystem\\LagerSystem.Shared\\Repositories\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T09:09:32.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem.Web\\appsettings.json",
               "RelativeDocumentMoniker": "LagerSystem\\LagerSystem.Web\\appsettings.json",
@@ -402,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "FormFactor.cs",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\LagerSystem\\LagerSystem\\LagerSystem\\Services\\FormFactor.cs",
               "RelativeDocumentMoniker": "LagerSystem\\LagerSystem\\Services\\FormFactor.cs",

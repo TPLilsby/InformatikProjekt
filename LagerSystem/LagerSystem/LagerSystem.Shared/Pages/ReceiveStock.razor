@@ -1,71 +1,9 @@
 ﻿@page "/receive-stock"
 
 @using LagerSystem.Shared.Models;
-@using LagerSystem.Shared.Repositories;
-@inject IProductRepository ProductRepository
 
 <h3>Varemodtagelse</h3>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Navn</th>
-            <th>Lager</th>
-            <th>Genbestillingsniveau</th>
-            <th>Modtag antal</th>
-            <th>Handling</th>
-            <th>Slet</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var product in products)
-        {
-            <tr>
-                <td>@product.Name</td>
-                <td>@product.StockQuantity</td>
-                <td>@product.ReorderLevel</td>
-                <td>
-                    <input type="number" min="1" @bind="product.ReceiveAmount" />
-                </td>
-                <td>
-                    <button @onclick="() => ProcessStockReception(product)" class="btn btn-primary">Modtag</button>
-                </td>
-                <td>
-                    <button @onclick="() => DeleteProduct(product.Id)" class="btn btn-danger">Slet</button>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-
-@if (successMessage != null)
-{
-    <p class="text-success">@successMessage</p>
-}
-
 @code {
-    private List<Product>? products = new();
-    private string? successMessage;
 
-    protected override async Task OnInitializedAsync()
-    {
-        products = await ProductRepository.GetAllProductsAsync();
-    }
-
-    private async Task ProcessStockReception(Product product)
-    {
-        if (product.ReceiveAmount > 0)
-        {
-            product.StockQuantity += product.ReceiveAmount;
-            await ProductRepository.UpdateProductAsync(product);
-            successMessage = "Lager opdateret!";
-        }
-    }
-
-    private async Task DeleteProduct(int productId)
-    {
-        await ProductRepository.DeleteProductAsync(productId);
-        products = await ProductRepository.GetAllProductsAsync(); // Opdater listen
-        successMessage = "Produktet er slettet!";
-    }
 }

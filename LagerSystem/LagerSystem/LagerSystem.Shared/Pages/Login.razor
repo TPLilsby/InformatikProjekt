@@ -1,36 +1,54 @@
 ﻿@page "/login"
-
-@using LagerSystem.Shared.Repositories
 @using LagerSystem.Shared.Services
-@using LagerSystem.Shared.Models
-
-@inject IUserRepository UserRepository
+@inject SessionService SessionService
 @inject NavigationManager Navigation
-@inject CustomAuthenticationStateProvider AuthStateProvider
+
+<h3>Login</h3>
 
 <EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
-    <div>
-        <label>Brugernavn</label>
-        <InputText @bind-Value="loginModel.UserName" />
-    </div>
-    <div>
-        <label>Adgangskode</label>
-        <InputText type="password" @bind-Value="password" />
-    </div>
+    <InputText @bind-Value="loginModel.Username" placeholder="Username" />
+    <InputText @bind-Value="loginModel.Password" type="password" placeholder="Password" />
     <button type="submit">Login</button>
 </EditForm>
 
+@if (loginFailed)
+{
+    <p style="color:red;">Forkert brugernavn eller kodeord.</p>
+}
+
 @code {
-    private User loginModel = new();
-    private string password;
+    private LoginModel loginModel = new();
+    private bool loginFailed = false;
 
     private async Task HandleLogin()
     {
-        var user = await UserRepository.AuthenticateUserAsync(loginModel.UserName, password);
-        if (user != null)
+        var success = await SessionService.LoginAsync(loginModel.Username);
+
+        if (success)
         {
-            AuthStateProvider.Login(user);
-            Navigation.NavigateTo("/");
+            loginFailed = false;
+
+            var role = SessionService.Role;
+
+            // Redirect baseret på rolle
+            if (role == "Admin" || role == "Lagerchef")
+            {
+                Navigation.NavigateTo("/counter");
+            }
+            else
+            {
+                Navigation.NavigateTo("/");
+            }
         }
+        else
+        {
+            loginFailed = true;
+        }
+    }
+
+    private class LoginModel
+    {
+        public string Username { get; set; }
+        public string Password { get; set; } // Ikke i brug endnu, men behold for fremtidig udvidelse
     }
 }

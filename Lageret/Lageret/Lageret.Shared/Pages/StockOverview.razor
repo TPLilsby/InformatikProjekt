@@ -1,0 +1,70 @@
+﻿@page "/stock-overview"
+@using Lageret.Shared.Models
+@using Lageret.Shared.Services
+@inject ProductService ProductService
+@inject SessionService SessionService
+@inject DatabaseUserService UserService
+
+<h3>Lageroversigt</h3>
+
+@if (!SessionService.IsLoggedIn)
+{
+    <p class="text-danger">Du skal være logget ind for at se denne side.</p>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Navn</th>
+                <th>Antal</th>
+                <th>Min. Lager</th>
+                <th>Kategori</th>
+                <th>Genbestil</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in products)
+            {
+                <tr>
+                    <td>@p.Name</td>
+                    <td>@p.Quantity</td>
+                    <td>@p.StockLimit</td>
+                    <td>@categories.FirstOrDefault(c => c.CategoryId == p.CategoryId)?.Name</td>
+                    <td>
+                        @if (p.Quantity < p.StockLimit)
+                        {
+                            <button class="btn btn-warning btn-sm" @onclick="() => Reorder(p.ProductId)">Genbestil</button>
+                        }
+                        else
+                        {
+                            <span class="text-success">OK</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Product> products = new();
+    private List<Category> categories = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await ProductService.GetAllAsync();
+        categories = await ProductService.GetCategoriesAsync();
+    }
+
+    private async Task Reorder(int productId)
+    {
+        var user = await UserService.GetUserByNameAsync(SessionService.Username);
+        if (user != null)
+        {
+            await ProductService.ReorderAsync(productId, user.UserId);
+            products = await ProductService.GetAllAsync(); // Opdater visning
+        }
+    }
+
+}

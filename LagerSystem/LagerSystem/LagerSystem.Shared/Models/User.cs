@@ -8,22 +8,12 @@ using System.Threading.Tasks;
 
 namespace LagerSystem.Shared.Models
 {
+    [Table("User")]
     public class User
     {
-        [Key]
-        public int Id { get; set; }
+        public int UserId { get; set; }
+        public string Name { get; set; }
 
-        [Required]
-        public string UserName { get; set; }
-
-        [Required]
-        public string PasswordHash { get; set; } // Skal kun gemme hash
-
-        [Required]
-        public string Role { get; set; }
-
-        [NotMapped]
-        public string Password { get; set; } // Bruges til binding i UI
+        public ICollection<UserRole> UserRoles { get; set; }
     }
-
 }

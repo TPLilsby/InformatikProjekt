@@ -28,3 +28,11 @@ C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\Lage
 C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\LagerSystem.Shared\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\LagerSystem.Shared\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\LagerSystem.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\LagerSystem.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\LagerSystem.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\LagerSystem.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\LagerSystem.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\LagerSystem.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\LagerSystem.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\LagerSystem.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystem\LagerSystem\LagerSystem.Shared\obj\Debug\net9.0\staticwebassets.build.json

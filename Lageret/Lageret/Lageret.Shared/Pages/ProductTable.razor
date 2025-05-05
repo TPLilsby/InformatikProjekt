@@ -1,0 +1,139 @@
+﻿@page "/products"
+@using Lageret.Shared.Models
+@using Lageret.Shared.Services
+@inject SessionService SessionService
+@inject ProductService ProductService
+@inject IJSRuntime JSRuntime
+
+
+<h3>Produktoversigt</h3>
+
+@if (SessionService.Role != "Lagerchef")
+{
+    <p class="text-danger">Du har ikke adgang til at se denne side.</p>
+}
+else
+{
+    <EditForm Model="newProduct" OnValidSubmit="SaveProduct" class="mb-4">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="row mb-2">
+            <div class="col">
+                <label>Navn</label>
+                <InputText @bind-Value="newProduct.Name" class="form-control" />
+            </div>
+            <div class="col">
+                <label>Antal</label>
+                <InputNumber @bind-Value="newProduct.Quantity" class="form-control" />
+            </div>
+            <div class="col">
+                <label>Minimumslager</label>
+                <InputNumber @bind-Value="newProduct.StockLimit" class="form-control" />
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col">
+                <label>Kategori</label>
+                <InputSelect @bind-Value="newProduct.CategoryId" class="form-control">
+                    <option value="">-- Vælg Kategori --</option>
+                    @foreach (var category in categories)
+                    {
+                        <option value="@category.CategoryId">@category.Name</option>
+                    }
+                </InputSelect>
+            </div>
+            <div class="col">
+                <label>Pris (DKK)</label>
+                <InputNumber @bind-Value="newProduct.Price" class="form-control" step="0.01" />
+            </div>
+        </div>
+
+        <button class="btn btn-primary mt-2" type="submit">
+            @((newProduct.ProductId == 0) ? "Opret" : "Opdater")
+        </button>
+    </EditForm>
+
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Navn</th>
+                <th>Antal</th>
+                <th>Min. Lager</th>
+                <th>Pris (DKK)</th>
+                <th>Kategori</th>
+                <th>Handling</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in products)
+            {
+                <tr>
+                    <td>@p.Name</td>
+                    <td>@p.Quantity</td>
+                    <td>@p.StockLimit</td>
+                    <td>@p.Price.ToString("0.00")</td>
+                    <td>@categories.FirstOrDefault(c => c.CategoryId == p.CategoryId)?.Name</td>
+                    <td>
+                        <button class="btn btn-sm btn-secondary me-1" @onclick="() => Edit(p)">
+                            Rediger
+                        </button>
+                        <button class="btn btn-sm btn-danger bi bi-trash" title="Slet" @onclick="() => Delete(p.ProductId)">
+                            Slet
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Product> products = new();
+    private List<Category> categories = new();
+    private Product newProduct = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (SessionService.Role == "Lagerchef")
+        {
+            products = await ProductService.GetAllAsync();
+            categories = await ProductService.GetCategoriesAsync();
+        }
+    }
+
+    private async Task SaveProduct()
+    {
+        if (newProduct.ProductId == 0)
+            await ProductService.CreateAsync(newProduct);
+        else
+            await ProductService.UpdateAsync(newProduct);
+
+        products = await ProductService.GetAllAsync();
+        newProduct = new Product(); // Clear form
+    }
+
+    private async Task Delete(int productId)
+    {
+        if (await JSRuntime.InvokeAsync<bool>("confirm", $"Er du sikker på, at du vil slette produktet med ID {productId}?"))
+        {
+            await ProductService.DeleteAsync(productId);
+            products = await ProductService.GetAllAsync();
+        }
+    }
+
+
+    private void Edit(Product p)
+    {
+        newProduct = new Product
+            {
+                ProductId = p.ProductId,
+                Name = p.Name,
+                Quantity = p.Quantity,
+                StockLimit = p.StockLimit,
+                CategoryId = p.CategoryId,
+                Price = p.Price
+            };
+    }
+}
