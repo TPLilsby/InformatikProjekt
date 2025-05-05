@@ -1,3 +1,0 @@
-C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystemet\LagerSystemet\LagerSystemet.Shared\obj\Debug\net9.0\staticwebassets.build.json
-C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystemet\LagerSystemet\LagerSystemet.Shared\obj\Debug\net9.0\staticwebassets.build.json
-C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystemet\LagerSystemet\LagerSystemet.Shared\obj\Debug\net9.0\staticwebassets.build.json

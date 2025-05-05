@@ -1,4 +1,0 @@
-C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystemet\LagerSystemet\LagerSystemet\wwwroot\index.html
-C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\LagerSystemet\LagerSystemet\LagerSystemet\wwwroot\app.css
-wwwroot\app.css
-wwwroot\index.html
