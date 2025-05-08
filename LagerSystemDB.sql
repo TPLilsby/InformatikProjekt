@@ -1,3 +1,9 @@
+CREATE DATABASE LagerSystemDB;
+GO
+
+USE LagerSystemDB;
+GO
+
 CREATE TABLE Category (
     CategoryId INT PRIMARY KEY IDENTITY(1,1),
     Name NVARCHAR(100) NOT NULL
