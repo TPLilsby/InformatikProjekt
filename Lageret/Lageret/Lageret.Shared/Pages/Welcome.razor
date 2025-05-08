@@ -1,0 +1,59 @@
+﻿@page "/welcome"
+@using Lageret.Shared.Services
+@inject NavigationManager Navigation
+@inject SessionService SessionService
+
+@if (SessionService.IsLoggedIn)
+{
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <h1 class="display-4">Velkommen tilbage, @SessionService.Username!</h1>
+                <h3 class="display-4">Du er logget ind som, @SessionService.Role</h3>
+                <p class="lead">Du er nu klar til at bruge systemet.</p>
+
+                @if (SessionService.Role == "Lagerchef")
+                {
+                    <p><button class="btn btn-primary" @onclick="GoToDashboard">Gå til overblik</button></p>
+                }
+                else if (SessionService.Role == "Medarbejder")
+                {
+                    <p><button class="btn btn-primary" @onclick="GoToStockOverview">Gå til lageroversigt</button></p>
+                }
+                else
+                {
+                    <p><button class="btn btn-primary" @onclick="GoToLogin">Log ind</button></p>
+                }
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <h1 class="display-4">Du er ikke logget ind</h1>
+                <p class="lead">Du skal logge ind for at få adgang til systemet.</p>
+                <button class="btn btn-primary" @onclick="GoToLogin">Log ind</button>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private void GoToLogin()
+    {
+        Navigation.NavigateTo("/login");
+    }
+
+    private void GoToDashboard()
+    {
+        Navigation.NavigateTo("/dashboard");
+    }
+
+    private void GoToStockOverview()
+    {
+        Navigation.NavigateTo("/stock-overview");
+    }
+}

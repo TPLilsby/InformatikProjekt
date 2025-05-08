@@ -1,0 +1,4 @@
+C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret\wwwroot\app.css
+C:\Users\zbctoli\Documents\GitHub\InformatikProjekt\Lageret\Lageret\Lageret\wwwroot\index.html
+wwwroot\app.css
+wwwroot\index.html

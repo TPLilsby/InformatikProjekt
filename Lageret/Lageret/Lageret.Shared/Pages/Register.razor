@@ -19,8 +19,18 @@
 
                         <div class="mb-3">
                             <label for="password" class="form-label">Adgangskode</label>
-                            <InputText id="password" type="password" class="form-control" @bind-Value="registerModel.Password" />
+                            <InputText id="password" type="password" class="form-control" @bind-Value="registerModel.Password" @oninput="ValidatePassword" />
                         </div>
+
+                        @if (!string.IsNullOrEmpty(registerModel.Password))
+                        {
+                            <ul class="list-unstyled ps-3">
+                                <li class="@GetValidationClass(IsLengthValid)">✅ Minimum 12 tegn</li>
+                                <li class="@GetValidationClass(HasLetter)">✅ Indeholder bogstav(er)</li>
+                                <li class="@GetValidationClass(HasDigit)">✅ Indeholder tal</li>
+                                <li class="@GetValidationClass(HasSymbol)">✅ Indeholder symbol</li>
+                            </ul>
+                        }
 
                         <div class="mb-3">
                             <label for="role" class="form-label">Vælg rolle</label>
@@ -56,6 +66,7 @@
     private RegisterModel registerModel = new();
     private string errorMessage;
     private List<string> roles = new();
+    private bool IsLengthValid, HasLetter, HasDigit, HasSymbol;
 
     protected override async Task OnInitializedAsync()
     {
@@ -75,6 +86,22 @@
             errorMessage = "Fejl under registrering. Brugernavn eksisterer måske allerede.";
         }
     }
+
+    private void ValidatePassword(ChangeEventArgs e)
+    {
+        var password = e?.Value?.ToString() ?? string.Empty;
+
+        IsLengthValid = password.Length >= 12;
+        HasLetter = password.Any(char.IsLetter);
+        HasDigit = password.Any(char.IsDigit);
+        HasSymbol = password.Any(ch => !char.IsLetterOrDigit(ch));
+
+        registerModel.Password = password; // Opdater model manuelt, da vi bypasser @bind
+    }
+
+    private string GetValidationClass(bool condition) =>
+        condition ? "text-success" : "text-danger";
+
 
     private class RegisterModel
     {

@@ -55,6 +55,9 @@ namespace Lageret.Shared.Services
             if (await _context.Users.AnyAsync(u => u.Name == username))
                 return false;
 
+            if (!IsPasswordValid(password))
+                return false;
+
             var role = await _context.Roles.FirstOrDefaultAsync(r => r.RoleName == roleName);
             if (role == null) return false;
 
@@ -76,6 +79,19 @@ namespace Lageret.Shared.Services
 
             return true;
         }
+
+        private bool IsPasswordValid(string password)
+        {
+            if (password.Length < 12)
+                return false;
+
+            bool hasLetter = password.Any(char.IsLetter);
+            bool hasDigit = password.Any(char.IsDigit);
+            bool hasSymbol = password.Any(ch => !char.IsLetterOrDigit(ch));
+
+            return hasLetter && hasDigit && hasSymbol;
+        }
+
 
     }
 }

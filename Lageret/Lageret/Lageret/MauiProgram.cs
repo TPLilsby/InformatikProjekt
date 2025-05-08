@@ -27,6 +27,7 @@ namespace Lageret
             builder.Services.AddScoped<DatabaseUserService>();
             builder.Services.AddScoped<SessionService>();
             builder.Services.AddScoped<ProductService>();
+            builder.Services.AddScoped<DashboardService>();
 
             builder.Services.AddMauiBlazorWebView();
 

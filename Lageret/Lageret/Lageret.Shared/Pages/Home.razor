@@ -1,8 +1,19 @@
 ﻿@page "/"
 @using Lageret.Shared.Services
+@inject NavigationManager Navigation
 
-<PageTitle>Home</PageTitle>
+<div class="home-container d-flex align-items-center justify-content-center min-vh-100" style="background: url('/images/welcome-background.jpg') no-repeat center center fixed; background-size: cover;">
+    <div class="text-center p-5 rounded shadow" style="background-color: rgba(0, 0, 0, 0.5);">
+        <!-- Semi-transparent sort baggrund -->
+        <h1 class="display-4 mb-4 text-white">Velkommen til Lageret!</h1>
+        <p class="lead mb-4 text-white">Log ind for at få adgang til systemet.</p>
+        <button class="btn btn-primary btn-lg" @onclick="GoToLogin">Log ind</button>
+    </div>
+</div>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app running.
+@code {
+    private void GoToLogin()
+    {
+        Navigation.NavigateTo("/login");
+    }
+}

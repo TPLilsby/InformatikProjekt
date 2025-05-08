@@ -1,0 +1,123 @@
+﻿@page "/dashboard"
+@using Lageret.Shared.Models
+@using Lageret.Shared.Services
+@inject DashboardService DashboardService
+@inject SessionService SessionService
+
+<div class="row">
+    @if (SessionService.Role == "Lagerchef")
+    {
+        <!-- Lagerchef får begge kolonner -->
+        <!-- Venstre kolonne: Seneste genbestillinger -->
+        <div class="col-12 col-lg-6">
+            <h4 class="mb-3">Seneste Genbestillinger</h4>
+
+            @switch (dashboardState)
+            {
+                case LoadState.Loading:
+                    <div class="text-center my-4">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Indlæser...</span>
+                        </div>
+                    </div>
+                    break;
+
+                case LoadState.Empty:
+                    <div class="alert alert-info">Der er endnu ingen genbestillinger.</div>
+                    break;
+
+                case LoadState.Loaded:
+                    <div class="row">
+                        @foreach (var order in visibleOrders)
+                        {
+                            <div class="col-12 mb-3">
+                                <div class="card border-success shadow-sm h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@order.Product?.Name</h5>
+                                        <p class="card-text"><strong>Antal:</strong> @order.Quantity</p>
+                                        <p class="card-text"><strong>Bestilt af:</strong> @order.User?.Name</p>
+                                        <p class="card-text text-end">
+                                            <small class="text-muted">🕒 @order.OrderDate.ToString("dd-MM-yyyy HH:mm")</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    @if (recentOrders.Count > 3)
+                    {
+                        <button class="btn btn-outline-primary mt-2" @onclick="ToggleExpand">
+                            @(showAll ? "Vis færre" : "Vis flere")
+                        </button>
+                    }
+                    break;
+
+                case LoadState.Error:
+                    <div class="alert alert-danger">Kunne ikke indlæse data. Prøv igen senere.</div>
+                    break;
+            }
+        </div>
+
+        <!-- Højre kolonne: Nøgletal -->
+        <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+            <h4 class="mb-3">📊 Nøgletal</h4>
+            <div class="alert alert-secondary">
+                Der er ingen nøgletal at vise lige nu.
+            </div>
+        </div>
+    }
+    else if (SessionService.Role == "Medarbejder")
+    {
+        <!-- Medarbejder ser kun nøgletal -->
+        <div class="col-12 col-lg-6">
+            <h4 class="mb-3">📊 Nøgletal</h4>
+            <div class="alert alert-secondary">
+                Der er ingen nøgletal at vise lige nu.
+            </div>
+        </div>
+    }
+    else
+    {
+        <!-- Ukendt rolle -->
+        <div class="col-12">
+            <div class="alert alert-warning">Din rolle er ikke genkendt. Kontakt en administrator.</div>
+        </div>
+    }
+</div>
+
+@code {
+    private enum LoadState { Loading, Loaded, Empty, Error }
+
+    private List<OrderEntry> recentOrders = new();
+    private List<OrderEntry> visibleOrders = new();
+    private LoadState dashboardState = LoadState.Loading;
+    private bool showAll = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (SessionService.Role == "Lagerchef")
+        {
+            try
+            {
+                recentOrders = await DashboardService.GetRecentOrdersAsync(6);
+                dashboardState = recentOrders.Any() ? LoadState.Loaded : LoadState.Empty;
+                UpdateVisibleOrders();
+            }
+            catch
+            {
+                dashboardState = LoadState.Error;
+            }
+        }
+    }
+
+    private void ToggleExpand()
+    {
+        showAll = !showAll;
+        UpdateVisibleOrders();
+    }
+
+    private void UpdateVisibleOrders()
+    {
+        visibleOrders = showAll ? recentOrders : recentOrders.Take(3).ToList();
+    }
+}
