@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lageret.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1a19ae706603bfb8fbb58ac0271872f66f8a535")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ee44d46294d800d4ccf35f926b5857325f0140f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lageret.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lageret.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

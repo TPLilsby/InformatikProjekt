@@ -25,10 +25,10 @@
                         @if (!string.IsNullOrEmpty(registerModel.Password))
                         {
                             <ul class="list-unstyled ps-3">
-                                <li class="@GetValidationClass(IsLengthValid)">✅ Minimum 12 tegn</li>
-                                <li class="@GetValidationClass(HasLetter)">✅ Indeholder bogstav(er)</li>
-                                <li class="@GetValidationClass(HasDigit)">✅ Indeholder tal</li>
-                                <li class="@GetValidationClass(HasSymbol)">✅ Indeholder symbol</li>
+                                <li class="@GetValidationClass(IsLengthValid)">* Minimum 12 tegn</li>
+                                <li class="@GetValidationClass(HasLetter)">* Indeholder bogstav(er)</li>
+                                <li class="@GetValidationClass(HasDigit)">* Indeholder tal</li>
+                                <li class="@GetValidationClass(HasSymbol)">* Indeholder symbol</li>
                             </ul>
                         }
 
@@ -79,7 +79,7 @@
 
         if (success)
         {
-            Navigation.NavigateTo("/login");
+            Navigation.NavigateTo("/");
         }
         else
         {

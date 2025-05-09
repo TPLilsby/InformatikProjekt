@@ -13,6 +13,7 @@ namespace Lageret.Shared.Services
     public class DatabaseUserService
     {
         private readonly AppDbContext _context;
+        private const string GlobalSalt = "D3rSk@lV4r3#enHemmel1gStr1ng!";
 
         public DatabaseUserService(AppDbContext context)
         {
@@ -30,7 +31,7 @@ namespace Lageret.Shared.Services
                 return null;
 
             var hasher = new PasswordHasher<string>();
-            var result = hasher.VerifyHashedPassword(null, user.PasswordHash, password);
+            var result = hasher.VerifyHashedPassword(null, user.PasswordHash, CombineWithSalt(password));
 
             if (result == PasswordVerificationResult.Failed)
                 return null;
@@ -62,22 +63,27 @@ namespace Lageret.Shared.Services
             if (role == null) return false;
 
             var hasher = new PasswordHasher<string>();
-            var hash = hasher.HashPassword(null, password);
+            var hash = hasher.HashPassword(null, CombineWithSalt(password));
 
             var user = new User
             {
                 Name = username,
                 PasswordHash = hash,
                 UserRoles = new List<UserRole>
-        {
-            new UserRole { Role = role }
-        }
+                {
+                    new UserRole { Role = role }
+                }
             };
 
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
             return true;
+        }
+
+        private string CombineWithSalt(string password)
+        {
+            return password + GlobalSalt;
         }
 
         private bool IsPasswordValid(string password)

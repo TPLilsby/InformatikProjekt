@@ -118,7 +118,7 @@ else
 
     private async Task Delete(int productId)
     {
-        if (await JSRuntime.InvokeAsync<bool>("confirm", $"Er du sikker på, at du vil slette produktet med ID {productId}?"))
+        if (await JSRuntime.InvokeAsync<bool>("confirm", $"Er du sikker på, at du vil slette produktet?"))
         {
             await ProductService.DeleteAsync(productId);
             products = await ProductService.GetAllAsync();
