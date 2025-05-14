@@ -67,18 +67,14 @@ CREATE TABLE ReceiptProduct (
 INSERT INTO Role (RoleName)
 VALUES ('Medarbejder'), ('Lagerchef');
 
-INSERT INTO [User] (Name)
-VALUES ('Oliver'), ('Tobias');
+INSERT INTO [User] (Name, PasswordHash)
+VALUES ('testing', 'AQAAAAIAAYagAAAAEIhU6AFwcC/uS43X/32NQe4XzUWu93S1db7hLUzOgx9K45/Te6l59JHouyzwTdspSg==');
+
 
 INSERT INTO UserRole (UserId, RoleId)
 SELECT u.UserId, r.RoleId
 FROM [User] u, Role r
-WHERE u.Name = 'Oliver' AND r.RoleName = 'Medarbejder';
-
-INSERT INTO UserRole (UserId, RoleId)
-SELECT u.UserId, r.RoleId
-FROM [User] u, Role r
-WHERE u.Name = 'Tobias' AND r.RoleName = 'Lagerchef';
+WHERE u.Name = 'testing' AND r.RoleName = 'Lagerchef';
 
 INSERT INTO Category (Name) VALUES ('Mejeri');
 INSERT INTO Category (Name) VALUES ('Grøntsager');
