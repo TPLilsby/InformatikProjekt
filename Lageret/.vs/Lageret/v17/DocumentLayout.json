@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lageret\\lageret\\lageret.shared\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|solutionrelative:lageret\\lageret.shared\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lageret\\lageret\\lageret.shared\\pages\\producttable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|solutionrelative:lageret\\lageret.shared\\pages\\producttable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lageret\\lageret\\lageret.shared\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|solutionrelative:lageret\\lageret.shared\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lageret\\lageret\\lageret.shared\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|solutionrelative:lageret\\lageret.shared\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0171B36C-7B7D-4F9F-8810-9C96596EAAEB}|Lageret\\Lageret.Web\\Lageret.Web.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lageret\\lageret\\lageret.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0171B36C-7B7D-4F9F-8810-9C96596EAAEB}|Lageret\\Lageret.Web\\Lageret.Web.csproj|solutionrelative:lageret\\lageret.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lageret\\lageret\\lageret.shared\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -59,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|solutionrelative:lageret\\lageret.shared\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0171B36C-7B7D-4F9F-8810-9C96596EAAEB}|Lageret\\Lageret.Web\\Lageret.Web.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lageret\\lageret\\lageret.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0171B36C-7B7D-4F9F-8810-9C96596EAAEB}|Lageret\\Lageret.Web\\Lageret.Web.csproj|solutionrelative:lageret\\lageret.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{91F6E263-E3D7-43D8-8743-C4B45BB95231}|Lageret\\Lageret\\Lageret.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lageret\\lageret\\lageret\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91F6E263-E3D7-43D8-8743-C4B45BB95231}|Lageret\\Lageret\\Lageret.csproj|solutionrelative:lageret\\lageret\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -73,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lageret\\lageret\\lageret.shared\\pages\\stockoverview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|solutionrelative:lageret\\lageret.shared\\pages\\stockoverview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lageret\\lageret\\lageret.shared\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|solutionrelative:lageret\\lageret.shared\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lageret\\lageret\\lageret.shared\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -97,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0171B36C-7B7D-4F9F-8810-9C96596EAAEB}|Lageret\\Lageret.Web\\Lageret.Web.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lageret\\lageret\\lageret.web\\services\\formfactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0171B36C-7B7D-4F9F-8810-9C96596EAAEB}|Lageret\\Lageret.Web\\Lageret.Web.csproj|solutionrelative:lageret\\lageret.web\\services\\formfactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lageret\\lageret\\lageret.shared\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|solutionrelative:lageret\\lageret.shared\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A3168F7-DE72-4804-9BF4-68262989B8FE}|Lageret\\Lageret.Shared\\Lageret.Shared.csproj|c:\\users\\zbctoli\\documents\\github\\informatikprojekt\\lageret\\lageret\\lageret.shared\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,7 +138,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -174,33 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Pages\\Login.razor",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Pages\\Login.razor",
-              "RelativeToolTip": "Lageret\\Lageret.Shared\\Pages\\Login.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T08:04:24.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Models\\Role.cs",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Models\\Role.cs",
-              "RelativeToolTip": "Lageret\\Lageret.Shared\\Models\\Role.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T07:54:14.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "DatabaseUserService.cs",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Services\\DatabaseUserService.cs",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Services\\DatabaseUserService.cs",
@@ -208,12 +182,11 @@
               "RelativeToolTip": "Lageret\\Lageret.Shared\\Services\\DatabaseUserService.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAAAEAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T07:58:46.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T07:58:46.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "SessionService.cs",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Services\\SessionService.cs",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Services\\SessionService.cs",
@@ -221,50 +194,50 @@
               "RelativeToolTip": "Lageret\\Lageret.Shared\\Services\\SessionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAmwBAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T07:57:04.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T07:57:04.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Register.razor",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Pages\\Register.razor",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Pages\\Register.razor",
               "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Pages\\Register.razor",
               "RelativeToolTip": "Lageret\\Lageret.Shared\\Pages\\Register.razor",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAC4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-04T09:38:25.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\Program.cs",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Web\\Program.cs",
               "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\Program.cs",
               "RelativeToolTip": "Lageret\\Lageret.Web\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBUAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBAAAACGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T08:01:58.242Z"
+              "WhenOpened": "2025-05-04T08:01:58.242Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductTable.razor",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Pages\\ProductTable.razor",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Pages\\ProductTable.razor",
               "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Pages\\ProductTable.razor",
               "RelativeToolTip": "Lageret\\Lageret.Shared\\Pages\\ProductTable.razor",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAuwIYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-04T16:31:40.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Dashboard.razor",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Pages\\Dashboard.razor",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Pages\\Dashboard.razor",
@@ -272,12 +245,61 @@
               "RelativeToolTip": "Lageret\\Lageret.Shared\\Pages\\Dashboard.razor",
               "ViewState": "AgIAAFgAAAAAAAAAAAAuwGUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T15:29:31.653Z",
+              "WhenOpened": "2025-05-08T15:29:31.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Services\\ProductService.cs",
+              "RelativeToolTip": "Lageret\\Lageret.Shared\\Services\\ProductService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T16:29:56.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Models\\Product.cs",
+              "RelativeToolTip": "Lageret\\Lageret.Shared\\Models\\Product.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T11:42:58.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Models\\Role.cs",
+              "RelativeToolTip": "Lageret\\Lageret.Shared\\Models\\Role.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T07:54:14.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Pages\\Login.razor",
+              "RelativeToolTip": "Lageret\\Lageret.Shared\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T08:04:24.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Layout\\NavMenu.razor",
@@ -285,12 +307,11 @@
               "RelativeToolTip": "Lageret\\Lageret.Shared\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T08:02:25.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T08:02:25.016Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Pages\\Home.razor",
@@ -302,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret\\MauiProgram.cs",
               "RelativeDocumentMoniker": "Lageret\\Lageret\\MauiProgram.cs",
@@ -314,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Data\\AppDbContext.cs",
@@ -326,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "NavMenu.razor.css",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Layout\\NavMenu.razor.css",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Layout\\NavMenu.razor.css",
@@ -334,12 +355,11 @@
               "RelativeToolTip": "Lageret\\Lageret.Shared\\Layout\\NavMenu.razor.css",
               "ViewState": "AgIAABUAAAAAAAAAAAAgwBgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-09T06:41:20.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T06:41:20.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "UserSession.cs",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Models\\UserSession.cs",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Models\\UserSession.cs",
@@ -351,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "MainLayout.razor.css",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Layout\\MainLayout.razor.css",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Layout\\MainLayout.razor.css",
@@ -359,12 +379,11 @@
               "RelativeToolTip": "Lageret\\Lageret.Shared\\Layout\\MainLayout.razor.css",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-05T20:14:16.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T20:14:16.446Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Welcome.razor",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Pages\\Welcome.razor",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Pages\\Welcome.razor",
@@ -376,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "DashboardService.cs",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Services\\DashboardService.cs",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Services\\DashboardService.cs",
@@ -388,19 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Services\\ProductService.cs",
-              "RelativeToolTip": "Lageret\\Lageret.Shared\\Services\\ProductService.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAA+wE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T16:29:56.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "StockOverview.razor",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Pages\\StockOverview.razor",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Pages\\StockOverview.razor",
@@ -412,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "bootstrap.min.css",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\wwwroot\\bootstrap\\bootstrap.min.css",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\wwwroot\\bootstrap\\bootstrap.min.css",
@@ -424,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "OrderEntry.cs",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Models\\OrderEntry.cs",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Models\\OrderEntry.cs",
@@ -436,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Layout\\MainLayout.razor",
@@ -448,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\wwwroot\\app.css",
@@ -460,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "FormFactor.cs",
               "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Web\\Services\\FormFactor.cs",
               "RelativeDocumentMoniker": "Lageret\\Lageret.Web\\Services\\FormFactor.cs",
@@ -481,18 +488,6 @@
               "ViewState": "AgIAAAQAAAAAAAAAAAAYwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T07:53:28.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Models\\Product.cs",
-              "RelativeToolTip": "Lageret\\Lageret.Shared\\Models\\Product.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T11:42:58.725Z"
             },
             {
               "$type": "Document",
