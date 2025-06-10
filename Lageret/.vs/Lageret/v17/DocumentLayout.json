@@ -206,8 +206,7 @@
               "RelativeToolTip": "Lageret\\Lageret.Shared\\Pages\\Register.razor",
               "ViewState": "AgIAACUAAAAAAAAAAAAAAC4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T09:38:25.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T09:38:25.744Z"
             },
             {
               "$type": "Document",
@@ -219,8 +218,7 @@
               "RelativeToolTip": "Lageret\\Lageret.Web\\Program.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAYwBAAAACGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T08:01:58.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T08:01:58.242Z"
             },
             {
               "$type": "Document",
@@ -232,8 +230,7 @@
               "RelativeToolTip": "Lageret\\Lageret.Shared\\Pages\\ProductTable.razor",
               "ViewState": "AgIAAHQAAAAAAAAAAAAuwIYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T16:31:40.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T16:31:40.392Z"
             },
             {
               "$type": "Document",
@@ -257,8 +254,7 @@
               "RelativeToolTip": "Lageret\\Lageret.Shared\\Services\\ProductService.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAuwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T16:29:56.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T16:29:56.497Z"
             },
             {
               "$type": "Document",
@@ -268,7 +264,7 @@
               "RelativeDocumentMoniker": "Lageret\\Lageret.Shared\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\zbctoli\\Documents\\GitHub\\InformatikProjekt\\Lageret\\Lageret\\Lageret.Shared\\Models\\Product.cs",
               "RelativeToolTip": "Lageret\\Lageret.Shared\\Models\\Product.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T11:42:58.725Z",
               "EditorCaption": ""
